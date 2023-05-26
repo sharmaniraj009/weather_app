@@ -39,16 +39,8 @@ sunset = weatherdict_astro["astronomy"]["astro"]["sunset"]
 moonrise = weatherdict_astro["astronomy"]["astro"]["moonrise"]
 moon_phase = weatherdict_astro["astronomy"]["astro"]["moon_phase"]
 
-print(f"todays date is {date}. Time is {datetime.time()}")
+print(f"{datetime.datetime.now()}")
 print(f"{city_name} Temperature is {temp_c} degree centigrade and humidity is {humidity}. The weather is : {condition}.")
 print(f"Sunrise at {sunrise}. Sunset at {sunset}.")
 print(f"Moon rise at {moonrise}. Today is {moon_phase}")
-
-
-
-
-
-
-
-
 
